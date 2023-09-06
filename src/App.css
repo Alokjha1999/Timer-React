@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  line-height: 2.0;
+}
+
+.app {
+  min-height:100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  
+  color: #71f413;
+}
+
+h2 {
+  color: #56e419;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+}
+
+.timer {
+  color: #1bcfdc;
+  font-size: 150px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  outline: none;
+  border: none;
+  font-size: 24px;
+  background: #1a1b01;
+  color: #0de927;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.buttons button:hover {
+  border-radius: 10px;
+  background: #f5f8ca;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.buttons button:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media (max-width: 780px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .timer {
+    font-size: 80px;
+  }
+
+  .buttons button {
+    font-size: 20px;
+  }
+}
