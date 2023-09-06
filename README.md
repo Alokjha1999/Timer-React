@@ -1,6 +1,6 @@
 ## Timely
 
- [Source Code](https://github.com/mindninjaX/React-Projects-for-Beginners)
+ [Source Code](https://github.com/Alokjha1999/Timer-React)
 
 
 [(https://www.youtube.com/@aloktechuniverse)](https://instagram.com/aloktechuniverse?igshid=MzRlODBiNWFlZA==)
